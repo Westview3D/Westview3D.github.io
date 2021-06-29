@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 <!DOCTYPE HTML>
 <!--
 	Solid State by HTML5 UP
@@ -52,7 +56,7 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">What are we</h2>
+										<h2 class="major">Who we are</h2>
 										<p>We are an ASB recognized club that focuses on giving students experience with professional 3D graphics software</p>
 										<a href="https://www.westviewasb.com/clubs-1/3d-animation-and-game-development" class="special">Our ASB page</a>
 									</div>
@@ -79,7 +83,7 @@
 									<div class="content">
 										<h2 class="major">How can I join</h2>
 										<p>To join, email westview3d@gmail.com. No experience is required to join the club. You can also join our discord server which is where all of out important communication happens.</p>
-										<a href="https://discord.gg/e782hyey8s" class="special">Join our discord server</a>
+										<a href="{{ site.discord }}" class="special">Join our discord server</a>
 									</div>
 								</div>
 							</section>
@@ -120,8 +124,8 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>The best thing you can do is join our discord, <a href="https://discord.gg/e782hyey8s">https://discord.gg/e782hyey8s.</a> Otherwise, email westview3d@gmail.com with any inquiries you may have. We are currently trying to find outreach opportunities and if you believe we fit in your program, please do not hesitate to email us.</p>
-							<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+							<p>The best thing you can do is join our <a href="{{ site.discord }}">discord</a>. Otherwise, email {{ site.email }} with any inquiries you may have. We are currently trying to find outreach opportunities and if you believe we fit in your program, please do not hesitate to email us.</p>
+							<form action="mailto:{{ site.email }}" method="post" enctype="text/plain">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -146,7 +150,7 @@
 									3500 Camino Del Sur<br />
 									San Diego, CA 92129
 								</li>
-								<li class="icon solid fa-envelope"><a href="#">westview3d@gmail.com</a></li>
+								<li class="icon solid fa-envelope"><a href="mailto:{{site.email}}">{{ site.email }}</a></li>
 								<!--
 								Commented out temporarily because we do not have these as of now
 								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
@@ -155,7 +159,7 @@
 								-->
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy;  {{ site.organization }}. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
