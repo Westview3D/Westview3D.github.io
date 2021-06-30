@@ -1,4 +1,4 @@
-#WEBSITE FOR WESTVIEW 3D ANIMATION AND GAME DEVELOPMENT CLUB
+# WEBSITE FOR WESTVIEW 3D ANIMATION AND GAME DEVELOPMENT CLUB
 
 If you have any changes in mind, feel free to submit a PR. The template came from HTML5up, which you can see below.
 
